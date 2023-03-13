@@ -8,9 +8,10 @@ const createwindow = () => {
         minWidth: 400,
         minHeight:400
     })
-    window.loadURL('https://midu.dev')
-
-    // window.loadFile('index.html')
+    // window.loadURL('https://midu.dev')
+    // Para abrir pagina de github
+    // window.loadURL('https://github.com/NEBULA1978')
+    window.loadFile('index.html')
 }
 app.whenReady().then(() => {
     // Para crear mas ProcessingInstruction.habre mas ventanas
